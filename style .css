@@ -1,0 +1,58 @@
+*{
+  margin: 10;
+  padding: 0;
+  text-align: center;
+}
+/* BACKGROUND */
+body{
+  min-height: 100vh;
+  width: 100%;
+  background-image:  url(images/grocery_background.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/* HEADING */
+h1{
+  justify-content: center;
+  text-align: center;
+  border: 6px solid rgb(107, 22, 22);
+  padding: 16px 32px;
+  font-size: 16;
+  border-radius: 50%;
+  background-color: bisque;
+}
+/* SUB HEADING */
+#first{
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* ENTER BUTTON */
+#enter{
+  border: 2px solid black;
+  width: 80px;
+  background-color: aliceblue;
+}
+
+#enter:hover{
+  background-color: rgb(179, 216, 248);
+  transform: 0.2s;
+}
+/* USER INPUT BAR */
+#userinput{
+  border: 2px solid black;
+  width: 200px;
+  height: 20px;
+}
+/* LIST */
+ul{
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: bisque;
+}
+
+li{
+  text-transform: capitalize;
+  font-size: 22px;
+}
